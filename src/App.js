@@ -48,13 +48,14 @@ function App() {
               </select>
             </div>
             <div id="thckt" className="relative bg-gray-100 float-left hidden w-6/12">
-              <img src={pic1} className="c2" alt=""/> 
-              <input type="number" name="vth2" defaultValue={0} id="vth2" className="c14" readOnly="readonly" />
-               <input type="number" name="rth2" defaultValue={0} id="rth2" className="c15" readOnly="readonly" />
-               <input type="number" name="rl2" defaultValue={0} id="rl2" className="c16" readOnly="readonly" />
-              <div className="c17">
+              <img src={pic1} className="absolute border-2 border-white w-6/12" alt=""/> 
+              <input type="number" name="vth2" defaultValue={0} id="vth2" className="text-center absolute bg-gradient-to-r from-blue w-36 right-96 top-36  " readOnly="readonly" />
+               <input type="number" name="rth2" defaultValue={0} id="rth2" className="text-center absolute bg-gradient-to-r from-blue w-36 right-72 top-36" readOnly="readonly" />
+               <input type="number" name="rl2" defaultValue={0} id="rl2" className="text-center absolute bg-gradient-to-r from-blue w-32 right-36 top-36" readOnly="readonly" />
+              
+              <div className="font-bold left-20 absolute top-80 ">
                 Load Current(I<sub>L</sub>) &nbsp;:
-              </div><input type="number" name="A13" defaultValue={0} id="A13" className="c18" readOnly="readonly" />
+              </div><input type="number" name="A13" defaultValue={0} id="A13" className="   absolute bg-gradient-to-r from-blue top-80 text-center right-72 w-32" readOnly="readonly" />
             </div>
             <div className=" float-right p-4 w-96 h-92 border-4 border-black rounded-xl">
             <div className=" font-bold text-3xl text-center">
