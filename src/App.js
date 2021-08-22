@@ -16,12 +16,12 @@ function App() {
             <br />
             <div id="main_circuit" className="relative block w-7/12 mt-24">
               <img src={pic} className="absolute border-2 border-white w-full" alt="img" />
-               <input type="number" name="r1" defaultValue={100} id="r1" className="c3" />
-                <input type="number" name="r3" defaultValue={150} id="r3" className="c4" />
-                 <input type="number" name="r2" defaultValue={200} id="r2" className="c5" />
-                 <input type="number" name="rl1" defaultValue={300} id="rl1" className="c6" /> 
-                 <input type="number" name="v2" defaultValue={110} id="v2" className="c7" /> 
-                 <input type="number" name="v1" defaultValue={220} id="v1" className="c8" />
+               <input type="number" name="r1" defaultValue={100} id="r1" className="absolute w-12  left-40 mt-8 " />
+                <input type="number" name="r3" defaultValue={150} id="r3" className="absolute w-12 left-72 " />
+                 <input type="number" name="r2" defaultValue={200} id="r2" className="absolute w-11 left-72 -ml-2  mt-44" />
+                 <input type="number" name="rl1" defaultValue={300} id="rl1" className="absolute w-12 right-10 mt-44" /> 
+                 <input type="number" name="v2" defaultValue={110} id="v2" className="absolute w-12 left-8 mt-32" /> 
+                 <input type="number" name="v1" defaultValue={220} id="v1" className="absolute w-12 left-8 mt-44" />
                   <input type="number" name="A" defaultValue={0} id="A" className=" absolute right-40 top-4 mt-2 text-center bg-gradient-to-r from-blue w-14 text-black border-2 border-blue rounded-lg " readOnly="readonly" /> 
                   <input type="number" name="V" defaultValue={0} id="V" className="absolute right-36 top-28 mt-2 text-center bg-gradient-to-r from-blue w-14 text-black border-2 border-blue rounded-lg" readOnly="readonly" />
                    <select name="s1" id="s1" className="cursor-pointer bg-blue absolute w-32 top-72 mt-4 left-16">
@@ -47,7 +47,7 @@ function App() {
                 </option>
               </select>
             </div>
-            <div id="thckt" className="c19">
+            <div id="thckt" className="relative bg-gray-100 float-left hidden w-6/12">
               <img src={pic1} className="c2" alt=""/> 
               <input type="number" name="vth2" defaultValue={0} id="vth2" className="c14" readOnly="readonly" />
                <input type="number" name="rth2" defaultValue={0} id="rth2" className="c15" readOnly="readonly" />
