@@ -1,6 +1,5 @@
 import pic from './img/NORTON.JPG'
 import pic1 from './img/thevnine.jpg'
-import "./App.css";
 import perform1, { nextt, nextt2, nextt3, nextt4, perform2, perform3, perform4, printpage } from './perform'
 
 function App() {
